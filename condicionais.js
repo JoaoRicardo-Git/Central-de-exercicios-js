@@ -111,20 +111,51 @@ function intermediario01() {
     let num1 = Number(prompt("Escolha um numero:"))
     let operacao = prompt("Qual operacao?:")
     let num2 = Number(prompt("Escolha mais um numero:"))
+    
+    // if (operacao === "+") {
+    //     alert(num1 + num2)
+    // } else if (operacao === "-") {
+    //     alert(num1 - num2)
+    // } else if (operacao === "*") {
+    //     alert(num1 * num2)
+    // } else if (operacao === "/") {
+    //     alert(num1 / num2)
+    // }
 
-
-    if (operacao === "+") {
-        alert(num1 + num2)
-    } else if (operacao === "-") {
-        alert(num1 - num2)
-    } else if (operacao === "*") {
-        alert(num1 * num2)
-    } else if (operacao === "/") {
-        alert(num1 / num2)
+    switch (operacao) {
+        case "+":
+            resutado = num1 + num2
+            break;
+        case "-":
+            resutado = num1 - num2
+            break;
+        case "*":
+            resutado = num1 * num2
+            break;
+        case "/":
+            resutado = num1 / num2
+            break;
+            
+    
+        default:
+            alert("Não Pode!")
+            break;
     }
+    
 }
 
 function intermediario03() {
 
-    let valor = Number(prompt("Qual o Valor da compra?:"))
+    let valor = prompt("Qual o Valor da compra?:")
+    let desconto = (10)
+
+    
+if (valor >= 100){
+    
+    alert( valor - desconto )
+
+} else {
+
+    alert(valor)
 }
+ }
