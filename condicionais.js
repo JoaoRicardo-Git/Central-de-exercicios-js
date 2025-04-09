@@ -113,15 +113,23 @@ function intermediario01() {
     let num2 = Number(prompt("Escolha mais um numero:"))
     
     // if (operacao === "+") {
-    //     alert(num1 + num2)
-    // } else if (operacao === "-") {
-    //     alert(num1 - num2)
-    // } else if (operacao === "*") {
-    //     alert(num1 * num2)
-    // } else if (operacao === "/") {
-    //     alert(num1 / num2)
-    // }
 
+    //     alert(num1 + num2)
+
+    // } else if (operacao === "-") {
+
+    //     alert(num1 - num2)
+
+    // } else if (operacao === "*") {
+
+    //     alert(num1 * num2)
+
+    // } else if (operacao === "/") {
+
+    //     alert(num1 / num2)
+
+    // }
+    
     switch (operacao) {
         case "+":
             resutado = num1 + num2
