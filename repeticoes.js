@@ -87,10 +87,37 @@ function intermediario01 () {
 
 }
 
+function intermediario02 () {
+
+    const numero = Math.floor(Math.random() * (100 - 1) + 1);
+    let pergun;
+
+    while (pergun != numero) {
+
+        let pergun = prompt("Qual numero de 1 a 100 foi o escolhido?:")
+
+        if (numero > pergun) {
+
+            alert("numero e maior!")
+
+        } else if (numero < pergun) {
+
+            alert ("numero e menor!")
+
+        } else {
+
+            alert("Voce acertou!")
+
+        }
+
+    }
+
+}
+
 function intermediario03 () {
 
     let numero = prompt("Numero para comecar a contagem regressiva")
-    while(numero >= 0) {
+    while (numero >= 0) {
         console.log(numero)
         numero--
         }
