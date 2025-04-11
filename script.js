@@ -1,6 +1,6 @@
-let nome = "João";
+let nome = "Yan";
 const idade = 17;
-var cidade = "Sao Paulo";
+var cidade = "São Caetando do Sul";
 
 /* console.log("Meu nome é: " + nome); //concatenacao
 console.log("Eu tenho: " + idade); //concatenacao
